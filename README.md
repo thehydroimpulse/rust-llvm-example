@@ -9,7 +9,7 @@ Linking LLVM with Rust is **dead simple**. I really mean it. You simply need to 
 Fetch this repo:
 
 ```
-git clone x
+git clone git@github.com:TheHydroImpulse/rust-llvm-example.git
 ```
 
 And build and run it:
