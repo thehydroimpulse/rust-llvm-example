@@ -1,4 +1,4 @@
-extern mod rustc = "rustc#0.10-pre";
+extern crate rustc = "rustc#0.11-pre";
 
 use rustc::lib::llvm::llvm;
 

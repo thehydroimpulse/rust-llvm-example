@@ -1,4 +1,4 @@
-run: src/main.rs
-	mkdir -p bin
-	rustc src/bin.rs -o bin/rustllvm
-	./bin/rustllvm
+run: src/bin.rs
+	mkdir -p target
+	rustc src/bin.rs --out-dir target
+	./target/bin
